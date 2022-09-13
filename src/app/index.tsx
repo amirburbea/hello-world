@@ -6,7 +6,7 @@ export interface AppProps {
 }
 
 export const App: FunctionComponent<AppProps> = ({ text }) => (
-  <div className="App">
+  <div className="container">
     <span>{text}</span>
   </div>
 );
